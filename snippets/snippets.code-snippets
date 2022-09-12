@@ -159,5 +159,25 @@
 		],
 		"description": "Simple onclick event block"
 	},
-
+	"Page Lowdefy": {
+		"prefix": "page",
+		"body": [
+			"id: $1",
+			"type: PageHeaderMenu",
+			"requests:",
+			"\t#id: ",
+			"properties:",
+			"\ttitle: $2",
+			"layout:",
+			"\t#contentJustify: center",
+			"areas:",
+			"\theader:",
+			"\t\t#blocks",
+			"\tcontent:",
+			"\t\t#blocks",
+			"\tfooter:",
+			"\t\t#blocks"
+		],
+		"description": "Simple one page template"
+	}
 }
