@@ -45,6 +45,17 @@
 		],
 		"description": "Block content card"
 	},
+	"Request block Lowdefy": {
+		"prefix": "block",
+		"body": [
+			"- id: $1",
+			"\ttype: $2",
+			"\tlayout: ",
+			"\tstyle: ",
+			"\tproperties: "
+		],
+		"description": "Block default"
+	},	
 
 
 }
