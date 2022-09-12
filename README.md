@@ -1,6 +1,16 @@
 # lowdefy snippet br README
 
-Desenvolva seu software mais rapido com esse snippets para o lowdefy
+<br />
+<p align="center">
+  <a href="https://rocketseat.com.br">
+    <img src="./image/BR.png" width="200px" alt="Logo">
+  </a>
+
+  <h3 align="center">Lowdefy snippets BR</h3>
+</p>
+
+<h4 align="center">Desenvolva seu software mais rapido com esse snippets para o lowdefy</h3>
+
 
 ## Tabela de Conteúdo
 
@@ -17,7 +27,15 @@ Desenvolva seu software mais rapido com esse snippets para o lowdefy
 
 ## Sobre o Projeto
 
-Este projeto disponibiliza um conjunto de Snippets criação de componentes e arquivos de configuração para o lowdefy.
+Este projeto disponibiliza um conjunto de Snippets criação de componentes e arquivos de configuração para o lowdefy aumentando a velocidade de desenvolvimento e produtividade.
+
+<br />
+<p align="center">
+  <a href="https://rocketseat.com.br">
+    <img src="./image/demostração.gif" width="300px" alt="Logo">
+  </a>
+</p>
+
 
 ### Linguagens Suportadas
 - Yaml (.yaml)
@@ -28,20 +46,17 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 
 |                    Gatilho | Conteúdo                                                                      |
 | ---------------------------: | ----------------------------------------------------------------------------- |
-|                    `request mysql →` | Cria um Componente de  **Requisição** para o Mysql                                             |
-|           `request axios →` | Cria um Componente de  **Requisição** para o Axios                      |
-|           `request sendGrid →` | Cria um Componente de  **Requisição** para o sendGrid                      |
+|                    `request mysql →` | Cria um Bloco de  **Requisição** para o Mysql                                             |
+|`request axios →` | Cria um Bloco de  **Requisição** para o Axios                      |
+|`request sendGrid →` | Cria um Bloco de  **Requisição** para o sendGrid                      |
+`blocks card →` | Cria um Blocks com um bloco dentro do tipo **Card**|
+`block →` | Cria um Bloco  padrão com layout e style|
+`datapicker →` | Cria um **Input** de calendario com format no padrão dia/mes/ano e com data maxima o dia atual|
+`textInput →` | Cria um **Input** de texto com validação e regex que so permite digitos e letras|
+`selector →` | Cria um **Input** de seleção ja com o modelo de opções|
+`button →` | Cria um **Button** |
+`message Block →` | Cria um **Block** de menssagem ja com status de erro e duração de 10 segundos|
+`events onClick →` | Cria um **Block** do tipo evento de onClick|
+`page →` | Cria uma **Pagina** inicial|
 
 
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-**Enjoy!**
