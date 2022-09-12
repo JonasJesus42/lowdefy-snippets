@@ -1,8 +1,9 @@
 {
-  "name": "lowdefysnippetbr",
-  "displayName": "LowdefySnippetBR",
-  "description": "",
+  "name": "lowdefy-snippet-br",
+  "displayName": "Lowdefy Snippet BR",
+  "description": "Snippeds designed to use with the Lowdefy project to speed up development",
   "version": "0.0.1",
+  "publisher": "JonasJesus",
   "engines": {
     "vscode": "^1.71.0"
   },
@@ -13,7 +14,7 @@
     "snippets": [
       {
         "language": "json",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/JonasJesus.code-snippets"
       }
     ]
   }
