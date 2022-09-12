@@ -20,5 +20,18 @@
 		],
 		"description": "Resquest for SendGridMailSend"
 	},
+	"Request mysql Lowdefy": {
+		"prefix": "request mysql",
+		"body": [
+		   "- id: $1",
+		   "\ttype: KnexBuilder",
+		   "\tconnectionId: mysql",
+		   "\tproperties:",
+			"\t\ttableName: $2",
+        	"\t\tquery: $3"
+		],
+		"description": "Resquest for Mysql database"
+	},
+
 
 }
