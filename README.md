@@ -14,16 +14,9 @@
 
 ## Tabela de Conteúdo
 
-- [Tabela de Conteúdo](#tabela-de-conte%C3%BAdo)
 - [Sobre o Projeto](#sobre-o-projeto)
-- [Começando](#come%C3%A7ando)
-  - [Instalação](#instala%C3%A7%C3%A3o)
-  - [Linguagens Suportadas](#linguagens-suportadas)
-  - [Snippets](#snippets)
-- [Contribuição](#contribui%C3%A7%C3%A3o)
-- [Licença](#licen%C3%A7a)
-- [Contato](#contato)
-
+- [Linguagens Suportadas](#linguagens-suportadas)
+- [Snippets](#snippets)
 
 ## Sobre o Projeto
 
