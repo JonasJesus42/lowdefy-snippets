@@ -98,5 +98,43 @@
 		],
 		"description": "Text input with validation and regex"
 	},
+	"Selector Lowdefy": {
+		"prefix": "selector",
+		"body": [
+			"- id: $1",
+			"\ttype: Selector",
+			"\tlayout: ",
+			"\t\tspan:$2 ",
+			"\trequired: false",
+			"\tproperties: ",
+			"\t\ttitle: $3",
+			"\t\tplaceholder: $4",
+			"\t\tdisabled: false",
+			"\t\toptions:",
+			"\t\t  - label: $5",
+			"\t\t\t\tvalue: $6",
+			"\t\t\t\tdisabled: false",
+			"\t\t\t\tfilterString: null",
+			"\t\t\t\tstyle: null",
+		],
+		"description": "Selection input with options"
+	},
+	"Button Lowdefy": {
+		"prefix": "button",
+		"body": [
+			"- id: $1",
+			"\ttype: Button",
+			"\tlayout: ",
+			"\t\tspan:$2 ",
+			"\trequired: false",
+			"\tproperties: ",
+			"\t\ttitle: $3",
+			"\t\tblock: true",
+			"\t\tdisabled: false",
+			"\t\ttype: default",
+			"\t\ticon: $4"
+		],
+		"description": "simple button with icon"
+	},
 
 }
