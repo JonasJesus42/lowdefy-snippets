@@ -32,6 +32,19 @@
 		],
 		"description": "Resquest for Mysql database"
 	},
+	"blocks card Lowdefy": {
+		"prefix": "blocks card",
+		"body": [
+			"blocks:" ,
+			"\t- id: $1",
+			"\t\ttype: Card",
+			"\t\tlayout:",
+			"\t\t\tsize: $2",
+			"\t\t\tcontentGutter: $2",
+			"\t\tproperties:"
+		],
+		"description": "Block content card"
+	},
 
 
 }
