@@ -77,5 +77,26 @@
 		],
 		"description": "Date selection block with maximum date preset for current day with day/month/year date format"
 	},
+	"TextInput Lowdefy": {
+		"prefix": "textInput",
+		"body": [
+			"- id: $1",
+			"\ttype: TextInput",
+			"\tlayout: ",
+			"\t\tspan:$2 ",
+			"\trequired: false",
+			"\tvalidate:",
+			"\t\t- message: $3",
+			"\t\t\tstatus: error",
+			"\t\t\tpass:",
+			"\t\t\t#regex that only allows numbers and letters",
+			"\t\t\t\t_regex: '^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ 0-9]+$' ",
+			"\tproperties: ",
+			"\t\ttitle: $3",
+			"\t\tplaceholder: $4",
+			"\t\tdisabled: false",
+		],
+		"description": "Text input with validation and regex"
+	},
 
 }
