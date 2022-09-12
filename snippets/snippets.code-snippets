@@ -149,6 +149,15 @@
 		],
 		"description": "block to show messages"
 	},
-
+	"Events onClick Lowdefy": {
+		"prefix": "events onClick",
+		"body": [
+			"events:",
+			"\tonClick:",
+			"\t\t- id: $1",
+			"\t\t\ttype: $2",
+		],
+		"description": "Simple onclick event block"
+	},
 
 }
