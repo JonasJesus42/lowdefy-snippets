@@ -136,5 +136,19 @@
 		],
 		"description": "simple button with icon"
 	},
+	"Message block Lowdefy": {
+		"prefix": "message Block",
+		"body": [
+			"- id: $1",
+			"\ttype: message",
+			"\tmessages",
+			"\t\tparams:",
+			"\t\t\tcontent: $2",
+			"\t\t\tstatus: error",
+			"\t\t\tduration: 10",
+		],
+		"description": "block to show messages"
+	},
+
 
 }
