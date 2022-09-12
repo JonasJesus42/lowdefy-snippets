@@ -2,8 +2,12 @@
   "name": "lowdefy-snippet-br",
   "displayName": "Lowdefy Snippet BR",
   "description": "Snippeds designed to use with the Lowdefy project to speed up development.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "JonasJesus",
+  "galleryBanner": {
+    "color": "#030518",
+    "theme": "dark"
+  },
   "author": {
     "name": "Jonas Jesus",
     "email": "jonasdasilvajesus@outlook.com"
@@ -22,13 +26,17 @@
   "keywords": [
     "lowdefy",
     "lowdefy snippets",
-    "jonas jesus"
+    "jonas jesus",
+    "yaml"
+  ],
+  "extensionPack": [
+    "redhat.vscode-yaml"
   ],
   "contributes": {
     "snippets": [
       {
-        "language": "json",
-        "path": "./snippets/snippets.code-snippets"
+        "language": "yaml",
+        "path": "./snippets/snippets.json"
       }
     ]
   }
