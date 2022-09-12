@@ -9,6 +9,16 @@
 	 	],
 	 	"description": "Resquest for axios"
 	 },
-
+	 "Request sendGrid Lowdefy": {
+		"prefix": "request sendGrid",
+		"body": [
+		   "- id: $1",
+		   "\ttype: SendGridMailSend",
+		   "\tconnectionId: $2",
+		   "\tproperties:",
+			"\t\tto: $3",
+		],
+		"description": "Resquest for SendGridMailSend"
+	},
 
 }
