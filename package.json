@@ -4,6 +4,7 @@
   "description": "Snippeds designed to use with the Lowdefy project to speed up development.",
   "version": "0.0.2",
   "publisher": "JonasJesus",
+  "icon": "image/BR.png",
   "galleryBanner": {
     "color": "#030518",
     "theme": "dark"
