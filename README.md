@@ -2,8 +2,8 @@
 
 <br />
 <p align="center">
-  <a href="https://rocketseat.com.br">
-    <img src="./image/BR.png" width="200px" alt="Logo">
+  <a>
+    <img src="https://i.postimg.cc/52zRZh4L/BR.png" width="200px" alt="Logo">
   </a>
 
   <h3 align="center">Lowdefy snippets BR</h3>
@@ -24,8 +24,8 @@ Este projeto disponibiliza um conjunto de Snippets criação de componentes e ar
 
 <br />
 <p align="center">
-  <a href="https://rocketseat.com.br">
-    <img src="./image/demostração.gif" width="300px" alt="Logo">
+  <a>
+    <img src="https://i.postimg.cc/bYFVdyd1/demostra-o.gif" width="300px" alt="Logo">
   </a>
 </p>
 
