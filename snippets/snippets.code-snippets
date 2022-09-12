@@ -56,6 +56,26 @@
 		],
 		"description": "Block default"
 	},	
-
+	"DataPicker Lowdefy": {
+		"prefix": "datapicker",
+		"body": [
+			"- id: $1",
+			"\ttype: DateSelector",
+			"\tlayout: ",
+			"\tstyle: ",
+			"\t\tspan:$3",
+			"\trequired: false",
+			"\tproperties: ",
+			"\t\ttitle: $3",
+			"\t\tplaceholder: $4",
+			"\t\tdisabledDates:",
+			"\t\t\tdates: []",
+			"\t\t\tranges:",
+			"\t\t\tmax:",
+			"\t\t\t\t_data:",
+			"\t\tformat: DD/MM/YYYY"
+		],
+		"description": "Date selection block with maximum date preset for current day with day/month/year date format"
+	},
 
 }
