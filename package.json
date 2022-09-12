@@ -1,14 +1,28 @@
 {
   "name": "lowdefy-snippet-br",
   "displayName": "Lowdefy Snippet BR",
-  "description": "Snippeds designed to use with the Lowdefy project to speed up development",
+  "description": "Snippeds designed to use with the Lowdefy project to speed up development.",
   "version": "0.0.1",
   "publisher": "JonasJesus",
+  "author": {
+    "name": "Jonas Jesus",
+    "email": "jonasdasilvajesus@outlook.com"
+  },
   "engines": {
     "vscode": "^1.71.0"
   },
+  "homepage": "https://github.com/JonasJesus42/lowdefy-snippets",
+  "repository": {
+    "url": "https://github.com/JonasJesus42/lowdefy-snippets",
+    "type": "git"
+  },
   "categories": [
     "Snippets"
+  ],
+  "keywords": [
+    "lowdefy",
+    "lowdefy snippets",
+    "jonas jesus"
   ],
   "contributes": {
     "snippets": [
