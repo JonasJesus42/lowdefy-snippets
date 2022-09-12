@@ -27,7 +27,7 @@ Este projeto disponibiliza um conjunto de Snippets criação de componentes e ar
 Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada um. O **⇥** significa a tecla `TAB`.
 
 |                    Gatilho | Conteúdo                                                                      |
-| -------------------------: | ----------------------------------------------------------------------------- |
+| ---------------------------: | ----------------------------------------------------------------------------- |
 |                    `request mysql →` | Cria um Componente de  **Requisição** para o Mysql                                             |
 |           `request axios →` | Cria um Componente de  **Requisição** para o Axios                      |
 |           `request sendGrid →` | Cria um Componente de  **Requisição** para o sendGrid                      |
