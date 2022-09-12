@@ -1,4 +1,14 @@
 {
+	 "Request axios Lowdefy": {
+	 	"prefix": "request axios",
+	 	"body": [
+			"- id: $1",
+			"\ttype: AxiosHttp",
+			"\tconnectionId: $2",
+			"\tproperties:",
+	 	],
+	 	"description": "Resquest for axios"
+	 },
 
 
 }
