@@ -51,5 +51,6 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `message Block →` | Cria um **Block** de menssagem ja com status de erro e duração de 10 segundos|
 `events onClick →` | Cria um **Block** do tipo evento de onClick|
 `page →` | Cria uma **Pagina** inicial|
+`buttonSelector →` | Cria dois **Botoes** com um titulo e so um botão pode ficar ativo|
 
 
