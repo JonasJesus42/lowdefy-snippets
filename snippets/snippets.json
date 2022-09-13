@@ -198,5 +198,24 @@
 			
 		],
 		"description": "The ButtonSelector block allows a user to select a single value from a set of options. The user cannot deselect an option once they have selected an input."
+	},
+	"CheckboxSelector Lowdefy": {
+		"prefix": "checkboxSelector",
+		"body": [
+			"id: $1",
+			"type: CheckboxSelector",
+			"properties:",
+			"\toptions:",
+			"\t- label: $2",
+			"\t\t\tvalue: $3",
+			"\t\t\tdisabled: false",
+			"\t\t\tstyle: null",
+			"\t- label: $4",
+			"\t\t\tvalue: $5",
+			"\t\t\tdisabled: false",
+			"\t\t\tstyle: null"
+			
+		],
+		"description": "The CheckboxSelector block allows a user to select multiple values from a set of options."
 	}
 }
