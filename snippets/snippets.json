@@ -594,5 +594,24 @@
 			"\t\t\tranges: [$5]"
 		],
 		"description": "The WeekSelector block allows a user to select a week. The value is a date object, with day and time values of midnight on the first monday of the week GMT."
+	},	
+	"Amazon Redshift conection Lowdefy": {
+		"prefix": "redshift",
+		"body": [
+			"- id: redshift",
+			"\ttype: WeekSelector",
+			"\tproperties:",
+			"\t\tclient: redshift",
+			"\t\t\tconection:",
+			"\t\t\t\thost:",
+			"\t\t\t\t\tsecret: REDSHIFT_HOST",
+			"\t\t\t\tdatabase:",
+			"\t\t\t\t\tsecret: REDSHIFT_DB",
+			"\t\t\t\tuser:",
+			"\t\t\t\t\tsecret: REDSHIFT_USER",
+			"\t\t\t\tpassword:",
+			"\t\t\t\t\tsecret: REDSHIFT_PASSWORD"
+		],
+		"description": "The Knex connection can be used to connect to a Amazon Redshift database."
 	}
 }

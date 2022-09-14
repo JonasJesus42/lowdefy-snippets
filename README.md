@@ -78,3 +78,4 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 |`titleInput →` | Cria o **Input** para mudar um titulo|
 |`twitterColorSelector →` | Cria o **Seletor de Cor**|
 |`weekSelector →` | Cria o **Seletor** de data para semanas|
+|`redshift →` | Cria a **Conexão** para o Amazon Redshift|
