@@ -747,6 +747,25 @@
 			"\t\t\tpassword:",
 			"\t\t\t\t_secret: MYSQL_PASSWORD"
 		],
-		"description": "The Knex connection can be used to connect to Microsoft SQL Server."
+		"description": "The Knex connection can be used to connect to a MySQL database."
+	},	
+	"PostgreSQL conection Lowdefy": {
+		"prefix": "postgres",
+		"body": [
+			"- id: postgres",
+			"\ttype: Knex",
+			"\tproperties:",
+			"\t\tclient: postgres",
+			"\t\tconection:",
+			"\t\t\thost:",
+			"\t\t\t\t_secret: PG_HOST",
+			"\t\t\tdatabase:",
+			"\t\t\t\t_secret: PG_DB",
+			"\t\t\tuser:",
+			"\t\t\t\t_secret: PG_USER",
+			"\t\t\tpassword:",
+			"\t\t\t\t_secret: PG_PASSWORD"
+		],
+		"description": "The Knex connection can be used to connect to a PostgreSQL database."
 	}
 }
