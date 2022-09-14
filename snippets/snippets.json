@@ -626,7 +626,7 @@
 			"\t\t\t_secret: S3_SECRET_ACCESS_KEY",
 			"\t\thost: $2",
 			"\t\tdatabase: $3",
-			"\t\tuser: true"
+			"\t\twrite: true"
 		],
 		"description": "The AwsS3Bucket connection is used to connect to a AWS S3 bucket. AWS S3 is the file storage solution provided by Amazon Web services."
 	},	
@@ -643,5 +643,22 @@
 			"\t\t\t\t_secret: API_PASSWORD"
 		],
 		"description": "The AxiosHttp connection is used to connect to APIs and web servers using HTTP or HTTPS."
+	},	
+	"Elasticsearch conection Lowdefy": {
+		"prefix": "elasticsearch",
+		"body": [
+			"- id: $1",
+			"\ttype: Elasticsearch",
+			"\tproperties:",
+			"\t\twrite: true",
+			"\t\tnode:",
+			"\t\t\t_secret: ELASTICSEARCH_HOST",
+			"\t\tauth:",
+			"\t\t\tusername:",
+			"\t\t\t\t_secret: ELASTICSEARCH_USER",
+			"\t\t\tpassword:",
+			"\t\t\t\t_secret: ELASTICSEARCH_PASSWORD"
+		],
+		"description": "The Elasticsearch connection can be used to search for documents in your Elasticsearch cluster."
 	}
 }

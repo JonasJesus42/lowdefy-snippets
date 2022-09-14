@@ -81,3 +81,4 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 |`redshift →` | Cria a **Conexão** para o Amazon Redshift|
 |`amazonS3 →` | Cria a **Conexão** para o Amazon S3|
 |`axiosHttp →` | Cria a **Conexão** para o a api|
+|`elasticsearch →` | Cria a **Conexão** para o Elasticsearch|
