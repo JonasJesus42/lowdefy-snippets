@@ -710,5 +710,19 @@
 			"\t\t\t\t_secret: MARIADB_PASSWORD"
 		],
 		"description": "The Knex connection can be used to connect to a Amazon Redshift database."
+	},	
+	"MongoDB conection Lowdefy": {
+		"prefix": "mongoDB",
+		"body": [
+			"- id: $1",
+			"\ttype: MongoDBCollection",
+			"\tproperties:",
+			"\t\tdatabaseUri:",
+			"\t\t\t_secret: MONGODB_URI",
+			"\t\tcollection:",
+			"\t\t\t_secret: my_collection_name",
+			"\t\twrite: true"
+		],
+		"description": "The Knex connection can be used to connect to a MariaDB database. To connect to a MariaDB database, use the mysql client."
 	}
 }
