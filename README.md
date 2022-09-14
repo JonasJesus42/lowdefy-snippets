@@ -68,4 +68,5 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `numberInput →` | Cria um **Input** para numeros|
 `pagination →` | Cria um **Componente** para controlar a paginação|
 `paragraphInput →` | Cria um **Componente** para customizar ou criar um paragrafo|
+`passwordInput →` | Cria um **Input** para senhas|
 

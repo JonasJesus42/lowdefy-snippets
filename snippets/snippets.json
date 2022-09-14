@@ -469,5 +469,13 @@
 			"type: ParagraphInput"
 		],
 		"description": "The ParagraphInput block can display a paragraph, yet allow the user to click a edit icon and change the paragraph content. This is useful when the UI renders an existing document with a paragraph, which a user must be able to edit."
+	},
+	"PasswordInput Lowdefy": {
+		"prefix": "passwordInput",
+		"body": [
+			"id: $1",
+			"type: PasswordInput"
+		],
+		"description": "The PasswordInput block is a single line password input."
 	}
 }
