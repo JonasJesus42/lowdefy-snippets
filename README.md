@@ -60,3 +60,4 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `colorSelector →` | Cria um **Seletor de Cor**|
 `CompactColorSelector →` | Cria um **Seletor de Cor** compacto|
 `DateRangeSelector →` | Cria um **Seletor** de data com data inicial e data final|
+`DateSelectorr →` | Cria um **Seletor** de data|
