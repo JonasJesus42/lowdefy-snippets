@@ -55,4 +55,5 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `checkboxSelector →` | Cria dois **Checkbox** com um titulo, so um pode ficar ativo|
 `checkboxSwitch →` | Cria o **Checkbox** com valor boolean|
 `chromeColorSelector →` | Cria um **Seletor de Cor** do tipo modal|
+`circleColorSelector →` | Cria um **Seletor de Cor** do tipo Circular com cores de seleção definidas|
 
