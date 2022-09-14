@@ -52,6 +52,7 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `events onClick →` | Cria um **Block** do tipo evento de onClick|
 `page →` | Cria uma **Pagina** inicial|
 `buttonSelector →` | Cria dois **Botoes** com um titulo, so um botão pode ficar ativo|
-`CheckboxSelector →` | Cria dois **Checkbox** com um titulo, so um pode ficar ativo|
+`checkboxSelector →` | Cria dois **Checkbox** com um titulo, so um pode ficar ativo|
+`checkboxSwitch →` | Cria o **Checkbox** com valor boolean|
 
 

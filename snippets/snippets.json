@@ -217,5 +217,13 @@
 			
 		],
 		"description": "The CheckboxSelector block allows a user to select multiple values from a set of options."
+	},
+	"CheckboxSwitch Lowdefy": {
+		"prefix": "checkboxSwitch",
+		"body": [
+			"id: $1",
+			"type: CheckboxSelector"
+		],
+		"description": "The CheckboxSwitch block allows a user to select a boolean value between (true/false)."
 	}
 }
