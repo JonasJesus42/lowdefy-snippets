@@ -711,18 +711,23 @@
 		],
 		"description": "The Knex connection can be used to connect to a Amazon Redshift database."
 	},	
-	"MongoDB conection Lowdefy": {
-		"prefix": "mongoDB",
+	"Microsoft SQL Server conection Lowdefy": {
+		"prefix": "SQL Server",
 		"body": [
 			"- id: $1",
-			"\ttype: MongoDBCollection",
+			"\ttype: Knex",
 			"\tproperties:",
-			"\t\tdatabaseUri:",
-			"\t\t\t_secret: MONGODB_URI",
-			"\t\tcollection:",
-			"\t\t\t_secret: my_collection_name",
-			"\t\twrite: true"
+			"\t\tclient: mssql",
+			"\t\tconection:",
+			"\t\t\thost:",
+			"\t\t\t\t_secret: MSSQL_HOST",
+			"\t\t\tdatabase:",
+			"\t\t\t\t_secret: MSSQL_DB",
+			"\t\t\tuser:",
+			"\t\t\t\t_secret: MSSQL_USER",
+			"\t\t\tpassword:",
+			"\t\t\t\t_secret: MSSQL_PASSWORD"
 		],
-		"description": "The Knex connection can be used to connect to a MariaDB database. To connect to a MariaDB database, use the mysql client."
+		"description": "The Knex connection can be used to connect to Microsoft SQL Server."
 	}
 }

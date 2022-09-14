@@ -86,3 +86,4 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 |`googleSheet read-only →` | Cria a **Conexão** para o GoogleSheet em modo somente leitura|
 |`mariaDB →` | Cria a **Conexão** para o MariaDB|
 |`mongoDB →` | Cria a **Conexão** para o MongoDB|
+|`SQL Server →` | Cria a **Conexão** para o SQL Server|
