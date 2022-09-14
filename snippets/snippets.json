@@ -791,5 +791,16 @@
 			"\t\t\tfilename: ./mydb.sqlite"
 		],
 		"description": "The Knex connection can be used to connect to a SQLite database."
+	},	
+	"Stripe conection Lowdefy": {
+		"prefix": "stripe",
+		"body": [
+			"- id: stripe",
+			"\ttype: Stripe",
+			"\tproperties:",
+			"\t\tsecretKey:",
+			"\t\t\t_secret: STRIPE_SECRET_KEY"
+		],
+		"description": "The Stripe connector uses the official Node.js client from Stripe."
 	}
 }

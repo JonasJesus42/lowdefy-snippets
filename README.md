@@ -91,3 +91,4 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 |`postgres →` | Cria a **Conexão** para o Postgres|
 |`sendGrid →` | Cria a **Conexão** para o SendGrid|
 |`sqLite →` | Cria a **Conexão** para o SQLite|
+|`Stripe →` | Cria a **Conexão** para o Stripe|
