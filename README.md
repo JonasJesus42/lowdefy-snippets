@@ -57,4 +57,5 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `chromeColorSelector →` | Cria um **Seletor de Cor** do tipo modal|
 `circleColorSelector →` | Cria um **Seletor de Cor** do tipo Circular com cores de seleção definidas|
 `swatchesColorSelector →` | Cria um **Seletor de Cor** do tipo Paleta cores com cores de seleção definidas|
+`colorSelector →` | Cria um **Seletor de Cor**|
 
