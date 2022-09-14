@@ -629,5 +629,19 @@
 			"\t\tuser: true"
 		],
 		"description": "The AwsS3Bucket connection is used to connect to a AWS S3 bucket. AWS S3 is the file storage solution provided by Amazon Web services."
+	},	
+	"AxiosHttp conection Lowdefy": {
+		"prefix": "axiosHttp",
+		"body": [
+			"- id: $1",
+			"\ttype: AxiosHttp",
+			"\tproperties:",
+			"\t\tbaseURL: $2",
+			"\t\tauth:",
+			"\t\t\tusername: $3",
+			"\t\t\tpassword:",
+			"\t\t\t\t_secret: API_PASSWORD"
+		],
+		"description": "The AxiosHttp connection is used to connect to APIs and web servers using HTTP or HTTPS."
 	}
 }
