@@ -62,3 +62,4 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `DateRangeSelector →` | Cria um **Seletor** de data com data inicial e data final|
 `DateSelector →` | Cria um **Seletor** de data|
 `DateTimeSelector →` | Cria um **Seletor** de data com horas|
+`GithubColorSelector →` | Cria um **Seletor** de data com horas|
