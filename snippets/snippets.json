@@ -77,8 +77,8 @@
 		],
 		"description": "Date selection block with maximum date preset for current day with day/month/year date format"
 	},
-	"TextInput Lowdefy": {
-		"prefix": "textInput",
+	"TextInputWhitValidate Lowdefy": {
+		"prefix": "textInputWhitValidate",
 		"body": [
 			"- id: $1",
 			"\ttype: TextInput",
@@ -538,5 +538,13 @@
 			"\tautoSize: true"
 		],
 		"description": "The TextArea block is a text input that has multiple rows of input. It can be set to a fixed number of rows, or it can expand automatically as the user inputs more text."
+	},
+	"TextInput Lowdefy": {
+		"prefix": "textInput",
+		"body": [
+			"id: $1",
+			"type: TextInput"
+		],
+		"description": "The TextInput block is a single line text input."
 	}
 }

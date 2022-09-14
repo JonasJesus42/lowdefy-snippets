@@ -45,7 +45,7 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `blocks card →` | Cria um Blocks com um bloco dentro do tipo **Card**|
 `block →` | Cria um Bloco  padrão com layout e style|
 `datapicker →` | Cria um **Input** de calendario com format no padrão dia/mes/ano e com data maxima o dia atual|
-`textInput →` | Cria um **Input** de texto com validação e regex que so permite digitos e letras|
+`textInputWhitValidate →` | Cria um **Input** de texto com validação e regex que so permite digitos e letras|
 `selector →` | Cria um **Input** de seleção ja com o modelo de opções|
 `button →` | Cria um **Button** |
 `message Block →` | Cria um **Block** de menssagem ja com status de erro e duração de 10 segundos|
@@ -74,5 +74,6 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `sliderColorSelector →` | Cria um **Seletor de Cor** do tipo slider|
 `switch →` | Cria o **Switch** com valor boolean|
 `textArea →` | Cria o **Input** de texto em área|
+`textInput →` | Cria o **Input** de texto|
 
 
