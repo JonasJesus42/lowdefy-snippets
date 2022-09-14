@@ -64,3 +64,4 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `DateTimeSelector →` | Cria um **Seletor** de data com horas|
 `GithubColorSelector →` | Cria um **Seletor de cor**|
 `MonthSelector →` | Cria um **Seletor** de més|
+`MultipleSelector →` | Cria um **Seletor** de multiplas escolhas e com opções customizaves|

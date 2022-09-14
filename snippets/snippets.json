@@ -424,5 +424,20 @@
 			"\t\t\tranges: [$5]"
 		],
 		"description": "The MonthSelector block allows a user to select a month. The value is a date object, with day and time values of midnight on the first day of the month GMT."
+	},
+	"MultipleSelector Lowdefy": {
+		"prefix": "multipleSelector",
+		"body": [
+			"- id: $1",
+			"\ttype: MultipleSelector",
+			"\tproperties: ",
+			"\t\toptions:",
+			"\t\t  - label: $5",
+			"\t\t\t\tvalue: $6",
+			"\t\t\t\tdisabled: false",
+			"\t\t\t\tfilterString: null",
+			"\t\t\t\tstyle: null"
+		],
+		"description": "The MultipleSelector block is a drop down selector that allows a user to select multiple values from a set of options."
 	}
 }
