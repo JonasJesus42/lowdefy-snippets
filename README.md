@@ -70,4 +70,5 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `paragraphInput →` | Cria um **Componente** para customizar ou criar um paragrafo|
 `passwordInput →` | Cria um **Input** para senhas|
 `radioSelector →` | Cria um **Seletor** redondo|
+`ratingSlider →` | Cria um **Seletor** de slider|
 

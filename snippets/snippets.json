@@ -496,5 +496,13 @@
 			
 		],
 		"description": "The RadioSelector block is a set of radio buttons that allow a user to select a single value from a set of options."
+	},
+	"RatingSlider Lowdefy": {
+		"prefix": "ratingSlider",
+		"body": [
+			"id: $1",
+			"type: RatingSlider"
+		],
+		"description": "The RatingSlider block allows a user to choose a numerical value on a slider input. It is typically used for scores or ratings. It has the option to have a Not Applicable checkbox, which leaves the value as null."
 	}
 }
