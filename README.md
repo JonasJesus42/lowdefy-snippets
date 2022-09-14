@@ -87,3 +87,4 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 |`mariaDB →` | Cria a **Conexão** para o MariaDB|
 |`mongoDB →` | Cria a **Conexão** para o MongoDB|
 |`SQL Server →` | Cria a **Conexão** para o SQL Server|
+|`mysql →` | Cria a **Conexão** para o MySql|

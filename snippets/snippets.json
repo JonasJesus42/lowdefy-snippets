@@ -729,5 +729,24 @@
 			"\t\t\t\t_secret: MSSQL_PASSWORD"
 		],
 		"description": "The Knex connection can be used to connect to Microsoft SQL Server."
+	},	
+	"MySQL conection Lowdefy": {
+		"prefix": "mysql",
+		"body": [
+			"- id: mysql",
+			"\ttype: Knex",
+			"\tproperties:",
+			"\t\tclient: mysql",
+			"\t\tconection:",
+			"\t\t\thost:",
+			"\t\t\t\t_secret: MYSQL_HOST",
+			"\t\t\tdatabase:",
+			"\t\t\t\t_secret: MYSQL_DB",
+			"\t\t\tuser:",
+			"\t\t\t\t_secret: MYSQL_USER",
+			"\t\t\tpassword:",
+			"\t\t\t\t_secret: MYSQL_PASSWORD"
+		],
+		"description": "The Knex connection can be used to connect to Microsoft SQL Server."
 	}
 }
