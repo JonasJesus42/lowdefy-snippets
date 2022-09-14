@@ -75,5 +75,6 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `switch →` | Cria o **Switch** com valor boolean|
 `textArea →` | Cria o **Input** de texto em área|
 `textInput →` | Cria o **Input** de texto|
-
-
+`titleInput →` | Cria o **Input** para mudar um titulo|
+`twitterColorSelector →` | Cria o **Seletor de Cor**|
+`weekSelector →` | Cria o **Seletor** de data para semanas|
