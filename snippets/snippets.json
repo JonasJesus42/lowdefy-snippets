@@ -366,11 +366,23 @@
 		"body": [
 			"- id: $1",
 			"\ttype: DateSelector",
-			"\tproperties: ",
+			"\tproperties:",
 			"\t\tdisabledDates:",
 			"\t\t\tdates: [$4]",
 			"\t\t\tranges: [$5]"
 		],
 		"description": "The DateSelector block allows a user to select a date from a calender."
+	},	
+	"DateTimeSelector Lowdefy": {
+		"prefix": "dateTimeSelector",
+		"body": [
+			"- id: $1",
+			"\ttype: DateTimeSelector",
+			"\tproperties:",
+			"\t\tdisabledDates:",
+			"\t\t\tdates: [$4]",
+			"\t\t\tranges: [$5]"
+		],
+		"description": "The DateTimeSelector block allows a user to select a date and a time from a calender."
 	}
 }
