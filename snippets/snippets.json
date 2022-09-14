@@ -225,5 +225,13 @@
 			"type: CheckboxSelector"
 		],
 		"description": "The CheckboxSwitch block allows a user to select a boolean value between (true/false)."
+	},
+	"ChromeColorSelector Lowdefy": {
+		"prefix": "chromeColorSelector",
+		"body": [
+			"id: $1",
+			"type: ChromeColorSelector"
+		],
+		"description": "A color selector component similar to the chrome developer tools color selector."
 	}
 }
