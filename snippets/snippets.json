@@ -520,5 +520,13 @@
 			"type: SliderColorSelector"
 		],
 		"description": "A slider color selector component."
+	},
+	"Switch Lowdefy": {
+		"prefix": "switch",
+		"body": [
+			"id: $1",
+			"type: Switch"
+		],
+		"description": "The Switch block is an on/off input. It has a boolean value (true/false)."
 	}
 }

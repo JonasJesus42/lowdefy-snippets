@@ -72,4 +72,5 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `radioSelector →` | Cria um **Seletor** redondo|
 `S3UploadButton →` | Cria um **Input** do tipo botão para envio de arquivos|
 `sliderColorSelector →` | Cria um **Seletor de Cor** do tipo slider|
+`switch →` | Cria o **Switch** com valor boolean|
 
