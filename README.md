@@ -90,4 +90,4 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 |`mysql →` | Cria a **Conexão** para o MySql|
 |`postgres →` | Cria a **Conexão** para o Postgres|
 |`sendGrid →` | Cria a **Conexão** para o SendGrid|
-
+|`sqLite →` | Cria a **Conexão** para o SQLite|

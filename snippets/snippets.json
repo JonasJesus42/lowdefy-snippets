@@ -767,7 +767,7 @@
 			"\t\t\t\t_secret: PG_PASSWORD"
 		],
 		"description": "The Knex connection can be used to connect to a PostgreSQL database."
-	},	
+	},
 	"SendGrid Email conection Lowdefy": {
 		"prefix": "sendGrid",
 		"body": [
@@ -779,5 +779,17 @@
 			"\t\tfrom: $2"
 		],
 		"description": "The SendGridMail connection can be used to connect to an existing SendGrid API account."
+	},	
+	"SQLite conection Lowdefy": {
+		"prefix": "sqLite",
+		"body": [
+			"- id: $1",
+			"\ttype: Knex",
+			"\tproperties:",
+			"\t\tclient: sqlite",
+			"\t\tconnection:",
+			"\t\t\tfilename: ./mydb.sqlite"
+		],
+		"description": "The Knex connection can be used to connect to a SQLite database."
 	}
 }
