@@ -461,5 +461,13 @@
   			"\t\t - 40"
 		],
 		"description": "The Pagination controls user input for pagination purposes."
+	},
+	"ParagraphInput Lowdefy": {
+		"prefix": "paragraphInput",
+		"body": [
+			"id: $1",
+			"type: ParagraphInput"
+		],
+		"description": "The ParagraphInput block can display a paragraph, yet allow the user to click a edit icon and change the paragraph content. This is useful when the UI renders an existing document with a paragraph, which a user must be able to edit."
 	}
 }

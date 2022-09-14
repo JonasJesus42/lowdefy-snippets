@@ -58,13 +58,14 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `circleColorSelector →` | Cria um **Seletor de Cor** do tipo Circular com cores de seleção definidas|
 `swatchesColorSelector →` | Cria um **Seletor de Cor** do tipo Paleta cores com cores de seleção definidas|
 `colorSelector →` | Cria um **Seletor de Cor**|
-`CompactColorSelector →` | Cria um **Seletor de Cor** compacto|
-`DateRangeSelector →` | Cria um **Seletor** de data com data inicial e data final|
-`DateSelector →` | Cria um **Seletor** de data|
-`DateTimeSelector →` | Cria um **Seletor** de data com horas|
-`GithubColorSelector →` | Cria um **Seletor de cor**|
-`MonthSelector →` | Cria um **Seletor** de més|
-`MultipleSelector →` | Cria um **Seletor** de multiplas escolhas e com opções customizaves|
-`NumberInput →` | Cria um **Input** para numeros|
-`Pagination →` | Cria um **Componente** para controlar a paginação|0
+`compactColorSelector →` | Cria um **Seletor de Cor** compacto|
+`dateRangeSelector →` | Cria um **Seletor** de data com data inicial e data final|
+`dateSelector →` | Cria um **Seletor** de data|
+`dateTimeSelector →` | Cria um **Seletor** de data com horas|
+`githubColorSelector →` | Cria um **Seletor de cor**|
+`monthSelector →` | Cria um **Seletor** de més|
+`multipleSelector →` | Cria um **Seletor** de multiplas escolhas e com opções customizaves|
+`numberInput →` | Cria um **Input** para numeros|
+`pagination →` | Cria um **Componente** para controlar a paginação|
+`paragraphInput →` | Cria um **Componente** para customizar ou criar um paragrafo|
 
