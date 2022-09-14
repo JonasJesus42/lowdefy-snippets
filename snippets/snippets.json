@@ -512,5 +512,13 @@
 			"type: S3UploadButton"
 		],
 		"description": "The S3UploadButton block allows a user to to upload a file to AWS S3."
+	},
+	"SliderColorSelector Lowdefy": {
+		"prefix": "sliderColorSelector",
+		"body": [
+			"id: $1",
+			"type: SliderColorSelector"
+		],
+		"description": "A slider color selector component."
 	}
 }
