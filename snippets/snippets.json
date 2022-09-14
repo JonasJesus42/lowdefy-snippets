@@ -317,5 +317,33 @@
 			"\t- '#607d8b'"
 		],
 		"description": "A color selector component."
+	},
+	"CompactColorSelector Lowdefy": {
+		"prefix": "compactColorSelector",
+		"body": [
+			"id: $1",
+			"type: CompactColorSelector",
+			"properties:",
+			"\tcolors:",
+			"\t- '#f44336'",
+			"\t- '#e91e63'",
+			"\t- '#9c27b0'",
+			"\t- '#673ab7'",
+			"\t- '#3f51b5'",
+			"\t- '#2196f3'",
+			"\t- '#03a9f4'",
+			"\t- '#00bcd4'",
+			"\t- '#009688'",
+			"\t- '#4caf50'",
+			"\t- '#8bc34a'",
+			"\t- '#cddc39'",
+			"\t- '#ffeb3b'",
+			"\t- '#ffc107'",
+			"\t- '#ff9800'",
+			"\t- '#ff5722'",
+			"\t- '#795548'",
+			"\t- '#607d8b'"
+		],
+		"description": "A compact color selector component."
 	}
 }
