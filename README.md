@@ -69,4 +69,5 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `pagination →` | Cria um **Componente** para controlar a paginação|
 `paragraphInput →` | Cria um **Componente** para customizar ou criar um paragrafo|
 `passwordInput →` | Cria um **Input** para senhas|
+`radioSelector →` | Cria um **Seletor** redondo|
 

@@ -477,5 +477,24 @@
 			"type: PasswordInput"
 		],
 		"description": "The PasswordInput block is a single line password input."
+	},
+	"RadioSelectorLowdefy": {
+		"prefix": "radioSelector",
+		"body": [
+			"id: $1",
+			"type: RadioSelector",
+			"properties:",
+			"\toptions:",
+			"\t- label: $2",
+			"\t\t\tvalue: $3",
+			"\t\t\tdisabled: false",
+			"\t\t\tstyle: null",
+			"\t- label: $4",
+			"\t\t\tvalue: $5",
+			"\t\t\tdisabled: false",
+			"\t\t\tstyle: null"
+			
+		],
+		"description": "The RadioSelector block is a set of radio buttons that allow a user to select a single value from a set of options."
 	}
 }
