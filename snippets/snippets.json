@@ -594,7 +594,7 @@
 			"\t\t\tranges: [$5]"
 		],
 		"description": "The WeekSelector block allows a user to select a week. The value is a date object, with day and time values of midnight on the first monday of the week GMT."
-	},	
+	},
 	"Amazon Redshift conection Lowdefy": {
 		"prefix": "redshift",
 		"body": [
@@ -691,5 +691,24 @@
 			"\t\t\t$4"
 		],
 		"description": "The GoogleSheet connection can be used to connect to a Google using an API key or a service account. An API key can only be used for read-only access to public sheets, "
+	},	
+	"MariaDB conection Lowdefy": {
+		"prefix": "mariaDB",
+		"body": [
+			"- id: mariaDB",
+			"\ttype: Knex",
+			"\tproperties:",
+			"\t\tclient: mysql",
+			"\t\tconection:",
+			"\t\t\thost:",
+			"\t\t\t\t_secret: MARIADB_HOST",
+			"\t\t\tdatabase:",
+			"\t\t\t\t_secret: MARIADB_DB",
+			"\t\t\tuser:",
+			"\t\t\t\t_secret: MARIADB_USER",
+			"\t\t\tpassword:",
+			"\t\t\t\t_secret: MARIADB_PASSWORD"
+		],
+		"description": "The Knex connection can be used to connect to a Amazon Redshift database."
 	}
 }

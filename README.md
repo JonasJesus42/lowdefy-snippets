@@ -84,3 +84,4 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 |`elasticsearch →` | Cria a **Conexão** para o Elasticsearch|
 |`googleSheet →` | Cria a **Conexão** para o GoogleSheet|
 |`googleSheet read-only →` | Cria a **Conexão** para o GoogleSheet em modo somente leitura|
+|`googleSheet read-only →` | Cria a **Conexão** para o MariaDB|
