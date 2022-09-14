@@ -660,5 +660,36 @@
 			"\t\t\t\t_secret: ELASTICSEARCH_PASSWORD"
 		],
 		"description": "The Elasticsearch connection can be used to search for documents in your Elasticsearch cluster."
+	},	
+	"GoogleSheet read-only conection Lowdefy": {
+		"prefix": "googleSheet read-only",
+		"body": [
+			"- id: $1",
+			"\ttype: GoogleSheet",
+			"\tproperties:",
+			"\t\tapiKey:",
+			"\t\t\t_secret: GOOGLE_SHEETS_API_KEY",
+			"\t\tsheetIndex: $2",
+			"\t\tspreadsheetId: $3"
+		],
+		"description": "The GoogleSheet connection can be used to connect to a Google using an API key or a service account. An API key can only be used for read-only access to public sheets, "
+	},	
+	"GoogleSheet conection Lowdefy": {
+		"prefix": "googleSheet",
+		"body": [
+			"- id: $1",
+			"\ttype: GoogleSheet",
+			"\tproperties:",
+			"\t\tclient_email:",
+			"\t\t\t_secret: GOOGLE_SHEETS_CLIENT_EMAIL",
+			"\t\tprivate_key::",
+			"\t\t\t_base64.decode:",
+			"\t\t\t\t_secret: GOOGLE_SHEETS_PRIVATE_KEY",
+			"\t\tsheetIndex: $2",
+			"\t\tspreadsheetId: $3",
+			"\t\tcolumType:",
+			"\t\t\t$4"
+		],
+		"description": "The GoogleSheet connection can be used to connect to a Google using an API key or a service account. An API key can only be used for read-only access to public sheets, "
 	}
 }
