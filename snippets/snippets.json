@@ -604,14 +604,30 @@
 			"\t\tclient: redshift",
 			"\t\t\tconection:",
 			"\t\t\t\thost:",
-			"\t\t\t\t\tsecret: REDSHIFT_HOST",
+			"\t\t\t\t\t_secret: REDSHIFT_HOST",
 			"\t\t\t\tdatabase:",
-			"\t\t\t\t\tsecret: REDSHIFT_DB",
+			"\t\t\t\t\t_secret: REDSHIFT_DB",
 			"\t\t\t\tuser:",
-			"\t\t\t\t\tsecret: REDSHIFT_USER",
+			"\t\t\t\t\t_secret: REDSHIFT_USER",
 			"\t\t\t\tpassword:",
-			"\t\t\t\t\tsecret: REDSHIFT_PASSWORD"
+			"\t\t\t\t\t_secret: REDSHIFT_PASSWORD"
 		],
 		"description": "The Knex connection can be used to connect to a Amazon Redshift database."
+	},	
+	"Amazon S3 conection Lowdefy": {
+		"prefix": "amazonS3",
+		"body": [
+			"- id: $1",
+			"\ttype: AwsS3Bucket",
+			"\tproperties:",
+			"\t\taccessKeyId:",
+			"\t\t\t_secret: S3_ACCESS_KEY_ID",
+			"\t\tconection:",
+			"\t\t\t_secret: S3_SECRET_ACCESS_KEY",
+			"\t\thost: $2",
+			"\t\tdatabase: $3",
+			"\t\tuser: true"
+		],
+		"description": "The AwsS3Bucket connection is used to connect to a AWS S3 bucket. AWS S3 is the file storage solution provided by Amazon Web services."
 	}
 }

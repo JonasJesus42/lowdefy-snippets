@@ -79,3 +79,4 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 |`twitterColorSelector →` | Cria o **Seletor de Cor**|
 |`weekSelector →` | Cria o **Seletor** de data para semanas|
 |`redshift →` | Cria a **Conexão** para o Amazon Redshift|
+|`amazonS3 →` | Cria a **Conexão** para o Amazon S3|
