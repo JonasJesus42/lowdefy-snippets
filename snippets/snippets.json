@@ -504,5 +504,13 @@
 			"type: RatingSlider"
 		],
 		"description": "The RatingSlider block allows a user to choose a numerical value on a slider input. It is typically used for scores or ratings. It has the option to have a Not Applicable checkbox, which leaves the value as null."
+	},
+	"S3UploadButton Lowdefy": {
+		"prefix": "S3UploadButton",
+		"body": [
+			"id: $1",
+			"type: S3UploadButton"
+		],
+		"description": "The S3UploadButton block allows a user to to upload a file to AWS S3."
 	}
 }
