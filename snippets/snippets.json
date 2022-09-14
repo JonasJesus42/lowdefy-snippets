@@ -439,5 +439,13 @@
 			"\t\t\t\tstyle: null"
 		],
 		"description": "The MultipleSelector block is a drop down selector that allows a user to select multiple values from a set of options."
+	},
+	"NumberInput Lowdefy": {
+		"prefix": "numberInput",
+		"body": [
+			"id: $1",
+			"type: NumberInput"
+		],
+		"description": "The NumberInput allows a user to input a number."
 	}
 }

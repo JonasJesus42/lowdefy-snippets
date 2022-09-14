@@ -65,3 +65,4 @@ Abaixo segue a lista com todos os Snippets disponíveis e os gatilhos para cada 
 `GithubColorSelector →` | Cria um **Seletor de cor**|
 `MonthSelector →` | Cria um **Seletor** de més|
 `MultipleSelector →` | Cria um **Seletor** de multiplas escolhas e com opções customizaves|
+`NumberInput →` | Cria um **Input** para numeros|
