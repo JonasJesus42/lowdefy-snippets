@@ -447,5 +447,19 @@
 			"type: NumberInput"
 		],
 		"description": "The NumberInput allows a user to input a number."
+	},
+	"Pagination Lowdefy": {
+		"prefix": "pagination",
+		"body": [
+			"id: $1",
+			"type: Pagination",
+			"properties:",
+  			"\tpageSizeOptions:",
+  			"\t\t - 10",
+  			"\t\t - 20",
+  			"\t\t - 30",
+  			"\t\t - 40"
+		],
+		"description": "The Pagination controls user input for pagination purposes."
 	}
 }
