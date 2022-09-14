@@ -345,5 +345,20 @@
 			"\t- '#607d8b'"
 		],
 		"description": "A compact color selector component."
+	},	
+	"DateRangeSelector Lowdefy": {
+		"prefix": "dateRangeSelector",
+		"body": [
+			"- id: $1",
+			"\ttype: DateRangeSelector",
+			"\tproperties: ",
+			"\t\tplaceholder:",
+			"\t\t\t- $2",
+			"\t\t\t- $3",
+			"\t\tdisabledDates:",
+			"\t\t\tdates: [$4]",
+			"\t\t\tranges: [$5]"
+		],
+		"description": "The DateRangeSelector block allows the user to choose a start date and an end date for a date range. The selected range is saved as an array with two date elements, the start and end dates."
 	}
 }
