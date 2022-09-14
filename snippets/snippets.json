@@ -802,5 +802,15 @@
 			"\t\t\t_secret: STRIPE_SECRET_KEY"
 		],
 		"description": "The Stripe connector uses the official Node.js client from Stripe."
+	},	
+	"SetState Lowdefy": {
+		"prefix": "setState",
+		"body": [
+			"- id: $1",
+			"\ttype: SetState",
+			"\tproperties:",
+			"\t\t$2"
+		],
+		"description": "The SetState action sets values in state."
 	}
 }
