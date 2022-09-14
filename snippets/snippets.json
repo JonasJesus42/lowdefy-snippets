@@ -528,5 +528,15 @@
 			"type: Switch"
 		],
 		"description": "The Switch block is an on/off input. It has a boolean value (true/false)."
+	},
+	"TextArea Lowdefy": {
+		"prefix": "textArea",
+		"body": [
+			"id: $1",
+			"type: TextArea",
+			"properties:",
+			"\tautoSize: true"
+		],
+		"description": "The TextArea block is a text input that has multiple rows of input. It can be set to a fixed number of rows, or it can expand automatically as the user inputs more text."
 	}
 }
